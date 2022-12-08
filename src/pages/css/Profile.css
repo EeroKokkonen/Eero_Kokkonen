@@ -1,0 +1,25 @@
+.profileContainer{
+    margin:auto;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 10%;
+    padding: 1rem;
+}
+
+
+.imageAndTextContainer{
+    display:inline-flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+}
+.imageAndTextContainer img {
+    height: 20px;
+    width: auto;
+    margin-right: 5px;
+}
+
+.imageAndTextContainer p {
+    margin: 0;
+}
+

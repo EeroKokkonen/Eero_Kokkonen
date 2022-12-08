@@ -1,0 +1,24 @@
+.expPageContainer{
+    margin: 5% auto;
+}
+.container{
+    display:flex;
+    width: 50%;
+    margin: auto;
+    justify-content:space-evenly;
+    justify-items: center;
+}
+
+.line{
+    width: 50%;
+    margin: 2% auto;
+}
+
+@media (max-width: 460px) {
+    .container {
+        display: block;
+        
+        justify-items: center;
+        width: 150px;
+    }
+}

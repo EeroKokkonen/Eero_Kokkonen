@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin:0;
+    text-align: center;
+    font-size: large;
+    font-family: "Inter var", ui-sans-serif, system-ui, system-ui, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
