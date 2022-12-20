@@ -1,11 +1,13 @@
-import "./css/Projects.css"
+import "./css/Skills.css"
 import LanguageBox from "../components/LanguageBox"
 
-const Projects = () => {
+const Skills = () => {
     const cpp = [
-        "First language I learnt and propably the language that I have used the most. I have used it for own and school projects. I would say that I have good unerstading about C++.",
+        "First language I learnt and probably the language that I have used the most. I have used it for own and school projects. I would say that I have good unerstading about C++.",
         "Some libraries and enviroments I have used with C++:",
         "- Qt",
+        "- Glm",
+        "- Vulkan",
         "- Sfml",
         "- Visual studio"
     ]
@@ -83,4 +85,4 @@ const Projects = () => {
     
 }
 
-export default Projects;
+export default Skills;

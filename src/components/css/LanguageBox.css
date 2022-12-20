@@ -18,3 +18,9 @@
 
 }
 
+@media (max-width: 460px) {
+    .experienceContainer {
+        margin-top: 0.5rem;
+    }
+}
+
