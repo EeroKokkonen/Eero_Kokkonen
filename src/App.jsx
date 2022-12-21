@@ -14,8 +14,6 @@ function App() {
         <Route path="/experience" element={ <Skills/> } />
         <Route path="/other" element={ <Other/> } />
         <Route path="/contact" element={ <Profile/> }/>
-        
-        
       </Routes>
     </>
   )
