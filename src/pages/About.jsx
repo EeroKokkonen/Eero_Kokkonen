@@ -5,7 +5,7 @@ const About = () => {
         <div className="aboutContainer">
             <div className="imgAndText">
                 <section>
-                    <img src="src\assets\pictures\profile_pic2.jpg"></img>
+                    <img src="..\assets\pictures\profile_pic2.jpg"></img>
                     <h1>Eero Kokkonen</h1>
                     <h5>Student & Developer</h5>
                 </section>
