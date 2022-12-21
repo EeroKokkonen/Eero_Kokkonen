@@ -1,27 +1,52 @@
 import "./css/Navbar.css";
 import { Link } from "react-router-dom";
+import { useRef, useState } from "react";
 
 const Navbar = () => {
+    const hampurger = useRef(null);
+    const navMenu = useRef(null);
+    const [isMenuActive, setisMenuActive] = useState(false);
+    const showMenu = (e) => {
+      console.log(hampurger.current.focus = true);
+      setisMenuActive(prev => !prev);
+    }
+    const hideMenu = () => {
+      setisMenuActive(false);
+    }
+
     return(
       <header className="header">
         <nav>
-          <ul> 
-              <li>
+          
+          <ul className={`nav-menu ${isMenuActive ? " showMenu" : ""}`} ref={navMenu}>
+              
+              <li className="nav-item" onClick={hideMenu}>
                 <Link to="/">About</Link>
               </li>
-              <li>
+              <li className="nav-item" onClick={hideMenu}>
                 <Link to="/experience">Experience</Link>
               </li>
-              <li>
+              <li className="nav-item" onClick={hideMenu}>
                 <Link to="/other">Other</Link>
               </li>
-              <li>
+              <li className="nav-item" onClick={hideMenu}>
                 <Link to="/contact">Contact</Link>
               </li>
           </ul>
         </nav>
+        <img src="src\assets\pictures\favicon.png"></img>
+        <div className={`hampurger ${isMenuActive ? " active" : ""}`} onClick={showMenu} ref={hampurger}>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </div>
       </header>
     );
 }
+
+
+
+
+
 
 export default Navbar;
