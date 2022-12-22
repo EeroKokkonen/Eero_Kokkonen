@@ -15,7 +15,7 @@ const Other = () => {
     const videoGames = ["I like to play video games to relax and have fun with friends."];
     const tech = ["I like to study and build computers. I used to mine cryptocurrencies and hopefully I will be able to start doing it in future."]
     return(
-        <div>
+        <div className="expPageContainer">
             <div className="container">
                 <LanguageBox text={"Sports"} details={sports}/>
                 <LanguageBox text={"Cooking"} details={cooking}/>
@@ -24,11 +24,9 @@ const Other = () => {
             </div>
             <div className="container">
                 <LanguageBox text={"Computers"} details={tech}/>
-                
-            </div>
-            <div className="container">
                 <LanguageBox text={"Video games"} details={videoGames}/>
             </div>
+            
         </div>
     )
 }

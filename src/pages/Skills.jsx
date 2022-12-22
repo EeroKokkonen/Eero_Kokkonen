@@ -35,7 +35,7 @@ const Skills = () => {
         "- Android studio"
     ]
     const csharp = [
-        "Some experience with making videogames with Unity and C#",
+        "Some experience on making videogames with Unity and C#",
         "Some enviroments I have used with C#:",
         "- Unity"
     ]

@@ -25,7 +25,10 @@
 
 @media (max-width: 600px) {
     .profileContainer {
-        width: 90%;
+        width: calc(100% - 1rem);
+        margin: 0.5rem;
+        padding: 1rem;
+        justify-self: center;
     }
 
 }

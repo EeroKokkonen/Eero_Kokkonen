@@ -9,48 +9,46 @@
     margin-bottom: 0;
     z-index: 10;
   }
-
   
-  
-  .header ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: baseline;
-    z-index: 10;
-  }
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+  z-index: 10;
+}
 
 .header img{
   display: none;
   position:absolute;
 }
   
-  .header li {
-    margin-left: 3rem;
-  }
-  
-  .header a {
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: #ffffff;
-  }
-  
-  .header a:hover,
-  .header a:active,
-  .header a:focus,
-  .header a:checked {
-    color: rgb(255, 136, 0);
-  }
+.header li {
+  margin-left: 3rem;
+}
 
-    .header>.active>a {
-      background-color: #C0C0C0;
-      color: rgb(255, 136, 0);
-    }
+.header a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
 
-  * {
-    box-sizing: border-box;
-  }
+.header a:hover,
+.header a:active,
+.header a:focus,
+.header a:checked {
+  color: rgb(255, 136, 0);
+}
+
+.header>.active>a {
+  background-color: #C0C0C0;
+  color: rgb(255, 136, 0);
+}
+
+* {
+  box-sizing: border-box;
+}
 
 .hampurger{
   display: none;
@@ -65,17 +63,21 @@
   transition: all 0.3s ease;
   background-color: rgb(255, 255, 255);
 }
-
+.pageHeader{
+  color: white;
+  font-weight: normal;
+  display: none;
+  margin: auto;
+}
 
 @media (max-width: 600px) {
   .header img{
     display: block;
-    z-index: 10;
+    position: relative;
   }
 
   .hampurger{
     display: block;
-    z-index: 10;
   }
   .header{
     justify-content:start;
@@ -117,5 +119,18 @@
     width: 100%;
     text-align: center;
     transition: 0.3s;
+  }
+  .pageHeader{
+    display: block;
+    position: relative;
+  }
+}
+
+@media (max-width: 300px) {
+  .pageHeader {
+      display: none;
+  }
+  .header img{
+    position: absolute;
   }
 }

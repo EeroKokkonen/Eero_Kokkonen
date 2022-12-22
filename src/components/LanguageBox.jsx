@@ -13,12 +13,11 @@ const LanguageBox = ({text, details}) => {
     }
     return(
         <>
-            <div className="experienceContainer" onClick={showDetails}>
+            <div className="experienceContainer" onClick={showDetails} >
                 <h3>{text}</h3>
-                
             </div>
-            {showModal && <LanguageModal  header={text} text={details}/>}
-            {showModal && <Backdrop onClick={closeDetails}/>}
+            {showModal && <LanguageModal onClick={closeDetails} header={text} text={details}/>}
+            {showModal && <Backdrop onClick={closeDetails} dim={true}/>}
         </>
     )
 }
