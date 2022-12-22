@@ -1,37 +1,37 @@
 import "./css/Navbar.css";
 import { Link } from "react-router-dom";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Backdrop from "./Backdrop";
+import getPageHeader from "../hooks/getPageHeader"
 
 const Navbar = () => {
     const hampurger = useRef(null);
     const navMenu = useRef(null);
     const [isMenuActive, setIsMenuActive] = useState(false);
-    const [pageHeader, setPageHeader] = useState("About me");
+    const [pageHeader, setPageHeader] = useState(getPageHeader());
 
     const showMenu = (e) => {
       setIsMenuActive(prev => !prev);
     }
     const hideMenu = () => {
       setIsMenuActive(false);
+      setPageHeader(getPageHeader());
     }
-
-
+    
     return(
       <header className="header">
         <nav>
-          
           <ul className={`nav-menu ${isMenuActive ? " showMenu" : ""}`} ref={navMenu}>
-              <li className="nav-item" onClick={() => {hideMenu(); setPageHeader("About me")}}>
+              <li className="nav-item" onClick={hideMenu}>
                 <Link to="/">About me</Link>
               </li>
-              <li className="nav-item" onClick={() => {hideMenu(); setPageHeader("About me")}}>
-                <Link to="/experience">Skills</Link>
+              <li className="nav-item" onClick={hideMenu}>
+                <Link to="/skills">Skills</Link>
               </li>
-              <li className="nav-item" onClick={() => {hideMenu(); setPageHeader("About me")}}>
-                <Link to="/other">Interests</Link>
+              <li className="nav-item" onClick={hideMenu}>
+                <Link to="/interests">Interests</Link>
               </li>
-              <li className="nav-item" onClick={() => {hideMenu(); setPageHeader("About me")}}>
+              <li className="nav-item" onClick={hideMenu}>
                 <Link to="/contact">Contact</Link>
               </li>
           </ul>

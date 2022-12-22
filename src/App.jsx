@@ -4,15 +4,16 @@ import Skills from "./pages/Skills"
 import About from "./pages/About"
 import { Route, Routes } from "react-router-dom"
 import Other from "./pages/Other"
-function App() {
 
+
+function App() {
   return (
     <>
       <Navbar/>
       <Routes>
         <Route path="/" element={ <About/> } exact/>
-        <Route path="/experience" element={ <Skills/> } />
-        <Route path="/other" element={ <Other/> } />
+        <Route path="/skills" element={ <Skills/> } />
+        <Route path="/interests" element={ <Other/> } />
         <Route path="/contact" element={ <Profile/> }/>
       </Routes>
     </>
