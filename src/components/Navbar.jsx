@@ -1,13 +1,13 @@
 import "./css/Navbar.css";
 import { Link } from "react-router-dom";
 import { useRef, useState } from "react";
+import Backdrop from "./Backdrop";
 
 const Navbar = () => {
     const hampurger = useRef(null);
     const navMenu = useRef(null);
     const [isMenuActive, setisMenuActive] = useState(false);
     const showMenu = (e) => {
-      console.log(hampurger.current.focus = true);
       setisMenuActive(prev => !prev);
     }
     const hideMenu = () => {
@@ -19,7 +19,6 @@ const Navbar = () => {
         <nav>
           
           <ul className={`nav-menu ${isMenuActive ? " showMenu" : ""}`} ref={navMenu}>
-              
               <li className="nav-item" onClick={hideMenu}>
                 <Link to="/">About</Link>
               </li>
@@ -40,6 +39,7 @@ const Navbar = () => {
           <span className="bar"></span>
           <span className="bar"></span>
         </div>
+        {isMenuActive && <Backdrop onClick={hideMenu} dim={false}/>}
       </header>
     );
 }
