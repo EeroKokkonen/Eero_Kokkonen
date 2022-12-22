@@ -24,17 +24,17 @@ const Navbar = () => {
                 <Link to="/">About</Link>
               </li>
               <li className="nav-item" onClick={hideMenu}>
-                <Link to="/experience">Experience</Link>
+                <Link to="/experience">Skills</Link>
               </li>
               <li className="nav-item" onClick={hideMenu}>
-                <Link to="/other">Other</Link>
+                <Link to="/other">Interests</Link>
               </li>
               <li className="nav-item" onClick={hideMenu}>
                 <Link to="/contact">Contact</Link>
               </li>
           </ul>
         </nav>
-        <img src="src\assets\pictures\favicon.png"></img>
+        <img src="/images/favicon.png"></img>
         <div className={`hampurger ${isMenuActive ? " active" : ""}`} onClick={showMenu} ref={hampurger}>
           <span className="bar"></span>
           <span className="bar"></span>

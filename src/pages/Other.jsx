@@ -2,7 +2,6 @@ import LanguageBox from "../components/LanguageBox"
 import "./css/Skills.css"
 
 const Other = () => {
-    const header = "Besides coding I like to do: ";
     const sports = [
         "Swimming",
         "I love swimming and I used to do it competitively nowadays it is just a hobby to me.",
@@ -17,7 +16,6 @@ const Other = () => {
     const tech = ["I like to study and build computers. I used to mine cryptocurrencies and hopefully I will be able to start doing it in future."]
     return(
         <div>
-            <h1>{header}</h1>
             <div className="container">
                 <LanguageBox text={"Sports"} details={sports}/>
                 <LanguageBox text={"Cooking"} details={cooking}/>

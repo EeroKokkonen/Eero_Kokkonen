@@ -1,11 +1,11 @@
 import "./css/About.css"
 const About = () => {
-    const profileText = "TESTI22! I am a 21-year-old information technology student from Tampere. I have been learning coding since start of 2022 when I decided to change my studies from automation engineering to information technology. Since then there hasn't been many days when I wouldn't code at all. My current plan is to graduate in 2024. I love coding with C++ but I'm also interested in web developing and machine learning.";
+    const profileText = "I am a 21-year-old information technology student from Tampere. I have been learning coding since start of 2022 when I decided to change my studies from automation engineering to information technology. Since then there hasn't been many days when I wouldn't code at all. My current plan is to graduate in 2024. I love coding with C++ but I'm also interested in web developing and machine learning.";
     return(
         <div className="aboutContainer">
             <div className="imgAndText">
                 <section>
-                    <img src="../assets/pictures/profile_pic2.jpg"></img>
+                    <img src="/images/profile_pic2.jpg"></img>
                     <h1>Eero Kokkonen</h1>
                     <h5>Student & Developer</h5>
                 </section>
