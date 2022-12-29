@@ -2,21 +2,21 @@ import "./css/Navbar.css";
 import { Link } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
 import Backdrop from "./Backdrop";
-import getPageHeader from "../hooks/getPageHeader"
+import usePageHeader from "../hooks/usePageHeader"
 
-const Navbar = () => {
+const Navbar = ({header}) => {
     const hampurger = useRef(null);
     const navMenu = useRef(null);
     const [isMenuActive, setIsMenuActive] = useState(false);
-    const [pageHeader, setPageHeader] = useState(getPageHeader());
 
     const showMenu = (e) => {
       setIsMenuActive(prev => !prev);
     }
     const hideMenu = () => {
       setIsMenuActive(false);
-      setPageHeader(getPageHeader());
+      //setPageHeader(getPageHeader());
     }
+
     
     return(
       <header className="header">
@@ -32,12 +32,12 @@ const Navbar = () => {
                 <Link to="/interests">Interests</Link>
               </li>
               <li className="nav-item" onClick={hideMenu}>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contacts">Contacts</Link>
               </li>
           </ul>
         </nav>
         <img src="/images/favicon.png"></img>
-        <h2 className="pageHeader">{pageHeader}</h2>
+        <h2 className="pageHeader">{header}</h2>
         <div className={`hampurger ${isMenuActive ? " active" : ""}`} onClick={showMenu} ref={hampurger}>
           <span className="bar"></span>
           <span className="bar"></span>

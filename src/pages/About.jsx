@@ -1,6 +1,10 @@
+import { useEffect } from "react";
 import "./css/About.css"
-const About = () => {
+const About = ({setHeader}) => {
     const profileText = "I am a 21-year-old information technology student from Tampere. I have been learning coding since start of 2022 when I decided to change my studies from automation engineering to information technology. Since then there hasn't been many days when I wouldn't code at all. My current plan is to graduate in 2024. I love coding with C++ but I'm also interested in web developing and machine learning.";
+    useEffect(() => {
+        setHeader("About me");
+    }, []);
     return(
         <div className="aboutContainer">
             <div className="imgAndText">

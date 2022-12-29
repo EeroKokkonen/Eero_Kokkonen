@@ -1,7 +1,8 @@
 import "./css/Skills.css"
 import LanguageBox from "../components/LanguageBox"
+import { useEffect } from "react";
 
-const Skills = () => {
+const Skills = ({setHeader}) => {
     const cpp = [
         "First language I learnt and probably the language that I have used the most. I have used it for own and school projects. I would say that I have good unerstading about C++.",
         "Some libraries and enviroments I have used with C++:",
@@ -45,12 +46,13 @@ const Skills = () => {
     const db = [
         "Databases I have worked with:",
         "- MongoDB",
-        "- Firebase"
+        "- Firebase",
+        "- Aws (currently learning)"
     ]
     const lp = [
-        "I have some experience from studies",
-        "Mostly used function blocks",
-        "- Siemens",
+        "I have some experience at logic programming from studies. I mostly used function blocks.",
+        "- Siemens Logo",
+        "- Siemens TIA Portal"
     ]
     const other = [
         "Version controllers I have used:",
@@ -60,6 +62,9 @@ const Skills = () => {
         "- Replit (used for hosting backend)"
     ]
 
+    useEffect(() => {
+        setHeader("Skills");
+    }, []);
     return (
         <div className="expPageContainer">
             <div className="container">
@@ -75,7 +80,7 @@ const Skills = () => {
             <hr className="line"/>
             <div className="container">
                 <LanguageBox text={"Databases"} details={db}/>
-                <LanguageBox text={"Logic programming"} details={lp}/>
+                <LanguageBox text={"Logic"} details={lp}/>
             </div>
             <div className="container">
                 <LanguageBox text={"Other"} details={other}/>

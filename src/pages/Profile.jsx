@@ -1,7 +1,12 @@
 import Socials from "../components/Socials"
 import "./css/Profile.css"
+import { useEffect } from "react";
 
-const Profile = () => {
+const Profile = ({setHeader}) => {
+
+    useEffect(() => {
+        setHeader("Contacts");
+    }, []);
 
     return (
         <div className="profileContainer">
