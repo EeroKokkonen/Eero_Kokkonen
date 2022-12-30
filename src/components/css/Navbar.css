@@ -34,10 +34,7 @@
   color: #ffffff;
 }
 
-.header a:hover,
-.header a:active,
-.header a:focus,
-.header a:checked {
+.header a:hover{
   color: rgb(255, 136, 0);
 }
 

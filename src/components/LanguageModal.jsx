@@ -6,12 +6,18 @@ const LanguageModal = ({text, header, onClick}) => {
     );
     return(
         <div className="modal">
-            <div className="cross" onClick={onClick}>
-                <span></span>
-                <span></span>
-            </div>
-            <h3>{header}</h3>
-            {details}
+            <section className="crossSection">
+                <div className="cross" onClick={onClick}>
+                    <span></span>
+                    <span></span>
+                </div>
+            </section>
+            
+            
+            <section /* className="textBox" */>
+                <h3>{header}</h3>
+                {details}
+            </section>
         </div>
     )
 }
