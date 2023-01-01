@@ -4,8 +4,8 @@ import { useEffect } from "react";
 
 const Skills = ({setHeader}) => {
     const cpp = [
-        "First language I learnt and probably the language that I have used the most. I have used it for own and school projects. I would say that I have good unerstading about C++.",
-        "Some libraries and enviroments I have used with C++:",
+        "First language I learnt and probably the language that I have used the most. I have used it for own and school projects. I would say that I have a good unerstading of the C++.",
+        "Some libraries and enviroments I have used:",
         "- Qt",
         "- Glm",
         "- Vulkan",
@@ -14,7 +14,7 @@ const Skills = ({setHeader}) => {
     ]
     const js = [
         "The second most used language for me. I have used it for own and school projects. Mostly used for making web applications but also some experience from using React native.",
-        "Some libraries and enviroments I have used with JS:",
+        "Some libraries and enviroments I have used:",
         "- Node.js",
         "- React.js",
         "- React native",
@@ -22,7 +22,7 @@ const Skills = ({setHeader}) => {
     ]
     const python =[ 
         "The third most used language for me. Mostly learnt by myself. I have used it for example to machine learning and data analytics.",
-        "Some libraries and enviroment I have used with Python:",
+        "Some libraries and enviroment I have used:",
         "- Pandas",
         "- Sklearn",
         "- Tensorflow",
@@ -32,12 +32,12 @@ const Skills = ({setHeader}) => {
     ]
     const java = [
         "Mostly used with Android studio to make native Android applications.",
-        "Some enviroments I have used with Java:",
+        "Some enviroments I have used:",
         "- Android studio"
     ]
     const csharp = [
         "Some experience on making videogames with Unity and C#",
-        "Some enviroments I have used with C#:",
+        "Some enviroments I have used:",
         "- Unity"
     ]
     const c = [
