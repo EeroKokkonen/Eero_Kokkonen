@@ -1,8 +1,13 @@
 import "./css/LanguageModal.css"
+import GetNewText from "../hooks/GetNewText";
+
+
 
 const LanguageModal = ({text, header, onClick}) => {
     const details = text.map((row) =>
-        <p key={row}>{row}</p>
+        <div key={row}>
+            {row === "" ? <br/> : GetNewText(row)}
+        </div>
     );
     return(
         <div className="modal">

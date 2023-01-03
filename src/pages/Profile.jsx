@@ -2,16 +2,14 @@ import Socials from "../components/Socials"
 import "./css/Profile.css"
 import { useEffect } from "react";
 
-const Profile = ({setHeader}) => {
-
+const Profile = ({setPage}) => {
     useEffect(() => {
-        setHeader("Contacts");
+        setPage("contacts");
     }, []);
 
     return (
         <div className="profileContainer">
             <h1>Eero Kokkonen</h1>
-            <p>Student & Developer</p>
 
             <div className="imageAndTextContainer">
                 <img src="/images/phone_icon.png"></img>

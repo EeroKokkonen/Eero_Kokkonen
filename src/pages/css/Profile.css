@@ -23,7 +23,7 @@
     margin: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .profileContainer {
         width: calc(100% - 1rem);
         margin: 0.5rem;

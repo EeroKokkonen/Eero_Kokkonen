@@ -4,20 +4,26 @@ import Skills from "./pages/Skills"
 import About from "./pages/About"
 import { Navigate, Routes, Route } from "react-router-dom";
 import Other from "./pages/Other"
-import { useState } from "react"
+import { useState, Suspense } from "react"
+import LanguageSelector from "./components/LanguageSelector";
+
 
 function App() {
-  const [header, setHeader] = useState("");
+
+  const [page, setPage] = useState("");
+
   return (
     <>
-      <Navbar header={header}/>
-      <Routes>
-        <Route path="/" element={ <About setHeader={setHeader} /> } exact/>
-        <Route path="/skills" element={ <Skills setHeader={setHeader} /> } />
-        <Route path="/interests" element={ <Other setHeader={setHeader} /> } />
-        <Route path="/contacts" element={ <Profile setHeader={setHeader} /> }/>
-        <Route path="*" element={<Navigate to="/" replace />}/>
-      </Routes>
+    <Suspense fallback="loading">
+        <Navbar page={page}/>
+        <Routes>
+          <Route path="/" element={ <About setPage={setPage} /> } exact/>
+          <Route path="/skills" element={ <Skills setPage={setPage} /> } />
+          <Route path="/interests" element={ <Other setPage={setPage} /> } />
+          <Route path="/contacts" element={ <Profile setPage={setPage} /> }/>
+          <Route path="*" element={<Navigate to="/" replace />}/>
+        </Routes>
+      </Suspense>
     </>
   )
 }

@@ -1,0 +1,113 @@
+{
+    "translation": {
+        "aboutMeText": "I am a 22-year-old /information technology/ student from Tampere. I have been learning coding since start of 2022 when I decided to change my studies from /automation engineering/ to information technology. Since then there hasn't been many days when I wouldn't code at all. My current plan is to /graduate in 2024/. I love coding with /C++/ but I'm also interested in /web developing/ and /machine learning/.",
+        "aboutMeHeader": "About me",
+        "status": "Student & Developer",
+        "education": "Education",
+        "educationHeader1": "Tampere University of Applied Sciences",
+        "educationText11": "Information Technology, Bachelor's Degree (2022-2024)",
+        "educationText12": "Electrical and Automation Engineering, Bachelor's Degree (2020-2022)",
+        "educationHeader2": "Nurmon lukio",
+        "educationText21": "Mathematical science (2017-2019)",
+        "educationText22": "Finnish Matriculation Examination",
+
+        "c++Text": [
+            "First language I learnt and probably the language that I have /used the most/. I have used it for own and school projects. I would say that I have a /good unerstading/ of the C++.",
+            "",
+            "Some libraries and enviroments I have used:",
+            "- Qt",
+            "- Arduino",
+            "- Vulkan",
+            "- Sfml",
+            "- Visual studio"
+        ],
+        "jsText":[
+            "The second most used language for me. I have used it for own and school projects. Mostly used for making /web applications/ (back- and frontend) but also some experience from using /React native/.",
+            "",
+            "Some libraries and enviroments I have used:",
+            "- /Node.js/",
+            "- /React.js/",
+            "- React native",
+            "- Visual code"
+        ],
+        "pythonText": [ 
+            "The third most used language for me. Mostly learnt by myself. I have used it for example to /machine learning/ and /data analytics/.",
+            "",
+            "Some libraries and enviroment I have used:",
+            "- Pandas",
+            "- Sklearn",
+            "- Tensorflow",
+            "- Tkinter",
+            "- Spyder",
+            "- Visual code"
+        ],
+        "javaText": [
+            "Mostly used with Android studio to make native /Android applications/.",
+            "",
+            "Some enviroments I have used:",
+            "- Android studio"
+        ],
+        "c#Text": [
+            "I have some experience on making videogames with /Unity/ using C#.",
+            "",
+            "Some enviroments I have used:",
+            "- Unity"
+        ],
+        "cText": [
+            "I have little experience on C. Used in /Linux/ OS to make small programs."
+        ],
+        "dbHeader": "Databases",
+        "lpHeader": "Logic",
+        "otherHeader": "Other",
+        "dbText": [
+            "Databases I have worked with:",
+            "- MongoDB",
+            "- Firebase",
+            "- Aws (currently learning)"
+        ],
+        "lpText": [
+            "I have some experience at logic programming from studies. I mostly used /function blocks/.",
+            "- Siemens Logo",
+            "- Siemens /TIA Portal/"
+        ],
+        "otherText": [
+            "Version controllers I have used:",
+            "- GitHub",
+            "- GitLab",
+            "Other sites I have used:",
+            "- Replit (used for hosting backend)"
+        ],
+
+        "aboutMe":"About me",
+        "skills": "Skills",
+        "interests": "Interests",
+        "contacts": "Contacts",
+
+        "sportsHeader": "Sports",
+        "investingHeader": "Investing",
+        "cookingHeader": "Cooking",
+        "videoGamesHeader": "Video games",
+        "computerHeader": "Computers",
+        "chessHeader": "Chess",
+
+        "sports": [
+            "I love swimming and I used to do it competitively. Nowadays it is just a hobby to me.",
+            "Occasionally I also like to go for a run or play badminton."
+        ],
+        "investing": [
+            "For some time I have been learning investing on stocks and cryptocurrencies."
+        ],
+        "cooking": [
+            "Sometimes when I have a time I like to try new recipes."
+        ],
+        "videoGames": [
+            "I like to play video games to relax and have fun with friends."
+        ],
+        "tech": [
+            "I like to study and build computers. I used to mine cryptocurrencies and hopefully I will be able to start doing it in future."
+        ],
+        "chess": [
+            "I'm still beginner at chess but I really like it. It's fun to challenge myself to climb ranking as far as I can."
+        ]
+    }
+}

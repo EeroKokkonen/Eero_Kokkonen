@@ -1,0 +1,112 @@
+{
+    "translation": {
+        "aboutMeText": "Olen 22-vuotias /tietotekniikan opiskelija/ Tampereelta. Olen opiskellut ohjelmointia intensiivisesti vuoden 2022 alusta lähtien, kun päätin vaihtaa alaa /automaatiotekniikasta/ tietotekniikkaan. Tykkään ohjelmoida /C++/:lla, mutta minua kiinnostaa myös /web-ohjelmointi/. Tämänhetkisen suunnitelman mukaan, /valmistun vuoden 2024 loppuun mennessä/.",
+        "aboutMeHeader": "Tietoa",
+        "status": "Opiskelija & Ohjelmoija",
+        "education": "Koulutus",
+        "educationHeader1": "Tampereen ammattikorkeakoulu",
+        "educationText11": "Tietotekniikka (2022-2024)",
+        "educationText12": "Sähkö- ja automaatiotekniikka (2020-2022)",
+        "educationHeader2": "Nurmon lukio",
+        "educationText21": "Matemaattis-luonnontieteellinen linja (2017-2019)",
+        "educationText22": "Ylioppilas",
+
+        "c++Text": [
+            "Minun ensimmäinen ja todennäköisesti /käytetyin ohjelmointikieli/. Olen käyttänyt sitä omissa ja koulun projekteissa. Sanoisin, että minulla on /hyvä ymmärrys/ C++:sta.",
+            "",
+            "Joitain minulle tuttuja kirjastoja ja ympäristöjä:",
+            "- Qt",
+            "- Arduino",
+            "- Vulkan",
+            "- Sfml",
+            "- Visual studio"
+        ],
+        "jsText":[
+            "Minun /toiseksi käytetyin ohjelmointikieli/. Olen käyttänyt sitä omissa ja koulun projekteissa. Olen pääosin käyttänyt sitä /web-ohjelmoinnissa/ (front- ja backend), mutta minulla on myös kokemusta /React nativen/ käytöstä.",
+            "",
+            "Joitain minulle tuttuja kirjastoja ja ympäristöjä:",
+            "- /Node.js/",
+            "- /React.js/",
+            "- React native",
+            "- Visual code"
+        ],
+        "pythonText": [ 
+            "/Kolmanneksi käytetyin ohjelmointikieli/ minulla. Pääosin oppinut itseopiskelulla. Olen käyttänyt sitä hyödyksi esimerkiksi /koneoppimiseen/ ja /data-analytiikkaan/.",
+            "",
+            "Joitain minulle tuttuja kirjastoja ja ympäristöjä:",
+            "- Pandas",
+            "- Sklearn",
+            "- Tensorflow",
+            "- Tkinter",
+            "- Spyder",
+            "- Visual code"
+        ],
+        "javaText": [
+            "Olen pääosin käyttänyt javaa Android studiolla tehden /Android sovelluksia/.",
+            "",
+            "Joitain minulle tuttuja ympäristöjä:",
+            "- Android studio"
+        ],
+        "c#Text": [
+            "Minulla on jonkin verran kokemusta videopelien ohjelmoinnista /Unitylla/ käyttäen C#.",
+            "",
+            "Joitain minulle tuttuja ympäristöjä:",
+            "- Unity"
+        ],
+        "cText": [
+            "Minulla on vähän kokemusta C:llä ohjelmoinnista. Käytin sitä /Linux/-käyttöjärjestelmällä tehden pieniä ohjelmia."
+        ],
+        "dbHeader": "Tietokannat",
+        "lpHeader": "Logiikka",
+        "otherHeader": "Muuta",
+        "dbText": [
+            "Tietokantoja, joita olen käyttänyt:",
+            "- MongoDB",
+            "- Firebase",
+            "- Aws (opiskelen tällä hetkellä)"
+        ],
+        "lpText": [
+            "Minulla on vähä kokemusta logiikan ohjelmoinnista. Pääosin käytin /function blockeja/.",
+            "- Siemens Logo",
+            "- Siemens /TIA Portal/"
+        ],
+        "otherText": [
+            "Versionhallintajärjestelmiä, joita olen käyttänyt:",
+            "- GitHub",
+            "- GitLab",
+            "Muita sivuja, joita olen käyttänyt:",
+            "- Replit (backendin hostaamiseen)"
+        ],
+
+        "sportsHeader": "Urheilu",
+        "investingHeader": "Sijoittaminen",
+        "cookingHeader": "Kokkaus",
+        "videoGamesHeader": "Videopelit",
+        "computerHeader": "Tietokoneet",
+        "chessHeader": "Shakki",
+
+        "aboutMe":"Tietoa",
+        "skills": "Taidot",
+        "interests": "Vapaa-aika",
+        "contacts": "Yhteystiedot",
+
+        "sports": [
+            "Tykkään todella paljon uinnista ja teenkin sitä viikottain. Toisinaan myös pelaan sulkapalloa ja lenkkeilen."
+        ],
+        "investing": [
+            "Jonkin aikaa olen opetellut sijoittamista osakkeisiin ja kryptovaluuttoihin."
+        ],
+        "cooking": [
+            "Silloin tällöin tykkään kokeilla uusia reseptejä."
+        ],
+        "videoGames": [
+            "Tykkään pelata videopelejä kavereiden kanssa rentoutuakseni ja pitääkseni hauskaa."
+        ],
+        "tech": [
+            "Tykkään opiskella ja rakennella tietokoneita. Aikoinaan harrasti kryptovaluuttojen louhintaa ja toivon, että tulevaisuudessa se olisi taas mahdollista."
+        ],
+        "chess": [
+            "Olen vielä aloittelija, mutta tykkään pelata shakkia aina, kun on aikaa. Se on hauskaa koittaa kiivetä rankingissa mahdollisimman korkealle."
+        ]
+    }
+}

@@ -5,13 +5,17 @@
     padding: 1rem;
     width: 30rem;
     z-index: 2;
-    position: fixed;
+    position: absolute;
     top: 20vh;
     left: calc(50% - 15rem);
     display: block;
     border-radius: 0%;
+    min-width: 220px;
 }
-
+.focusText{
+    font-weight:700;
+    font-style: italic;
+}
 .modal p {
     margin: 0;
     text-align: left;
@@ -41,7 +45,7 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .modal{
         width: calc(100% - 0.6rem);
         top: 0;

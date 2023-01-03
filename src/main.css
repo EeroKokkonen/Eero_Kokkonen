@@ -5,4 +5,9 @@ body{
     text-align: center;
     font-size: large;
     font-family: "Inter var", ui-sans-serif, system-ui, system-ui, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    min-width: 250px;
+}
+html, body{
+    height: 100%;
+    width: 100%;
 }
