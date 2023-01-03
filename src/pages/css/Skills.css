@@ -1,5 +1,5 @@
 .expPageContainer{
-    margin: 100px auto;
+    margin-top: 100px;
 }
 .container{
     display:flex;
@@ -13,7 +13,7 @@
     margin: 1rem auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .expPageContainer {
         margin-top: 3rem;
     }
@@ -21,7 +21,7 @@
         width: 150px;
         min-width: 150px;
         display: inline-table;
-        margin-top: 0rem;
+        margin-top: 0;
     }
     .line{
         width: calc(100% - 1rem);
@@ -44,7 +44,6 @@
 @media (max-width: 316px) {
     .expPageContainer {
         margin-top: 0.5rem;
-
     }
 
     .line {

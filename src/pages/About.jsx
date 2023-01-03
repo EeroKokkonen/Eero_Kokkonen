@@ -30,7 +30,7 @@ const About = ({setPage}) => {
                         <p>{t('educationText12')}</p>
                         <h4 className="studyHeader">{t('educationHeader2')}</h4>
                         <p>{t('educationText21')}</p>
-                        <p>{t('educationText22')}</p>
+                        <p className="lastPhrase">{t('educationText22')}</p>
                     </section>
                 </section>
             </div>
