@@ -8,14 +8,14 @@
     border-radius: 1%;
     width: auto;
 }
-.aboutContainer .education p, h4{
+.aboutContainer .education p{
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .studyHeader{
     text-align: start;
-    margin: auto 1rem;
+    margin: auto 0rem;
 }
 .aboutLine{
     width: calc(100% - 20px);
@@ -30,9 +30,12 @@
 }
 
 .imgAndText p{
-    margin: 1rem;
+    margin: 0rem;
     color: rgb(70, 70, 70);
     text-align:start;
+}
+.rightSection{
+    padding: 0 1rem;
 }
 
 
@@ -43,10 +46,9 @@
         margin-top: 5.5rem;
         display: block;
     }
-    .imgAndText img{
-        margin-top: 0.5rem;
+    .rightSection {
+        padding: 0rem;
     }
-
 }
 
 @media (max-width: 300px) {

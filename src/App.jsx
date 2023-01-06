@@ -5,7 +5,6 @@ import About from "./pages/About"
 import { Navigate, Routes, Route } from "react-router-dom";
 import Other from "./pages/Other"
 import { useState, Suspense } from "react"
-import LanguageSelector from "./components/LanguageSelector";
 
 
 function App() {

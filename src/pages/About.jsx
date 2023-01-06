@@ -18,7 +18,7 @@ const About = ({setPage}) => {
                     <h1>Eero Kokkonen</h1>
                     <h5>{t('status')}</h5>
                 </section>
-                <section>
+                <section className="rightSection">
                     <h3>{t('aboutMeHeader')}</h3>
                     <hr className="aboutLine"/>
                     {GetNewText(t('aboutMeText'))}
@@ -28,6 +28,7 @@ const About = ({setPage}) => {
                         <h4 className="studyHeader">{t('educationHeader1')}</h4>
                         <p>{t('educationText11')}</p>
                         <p>{t('educationText12')}</p>
+                        <br/>
                         <h4 className="studyHeader">{t('educationHeader2')}</h4>
                         <p>{t('educationText21')}</p>
                         <p className="lastPhrase">{t('educationText22')}</p>

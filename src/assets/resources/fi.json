@@ -1,6 +1,6 @@
 {
     "translation": {
-        "aboutMeText": "Olen 22-vuotias /tietotekniikan opiskelija/ Tampereelta. Olen opiskellut ohjelmointia intensiivisesti vuoden 2022 alusta lähtien, kun päätin vaihtaa alaa /automaatiotekniikasta/ tietotekniikkaan. Tykkään ohjelmoida /C++/:lla, mutta minua kiinnostaa myös /web-ohjelmointi/. Tämänhetkisen suunnitelman mukaan, /valmistun vuoden 2024 loppuun mennessä/.",
+        "aboutMeText": "Olen 22-vuotias /kolmannen vuoden tietotekniikan opiskelija/ Tampereelta. Olen opiskellut ohjelmointia intensiivisesti vuoden 2022 alusta lähtien, kun päätin vaihtaa alaa /automaatiotekniikasta/ tietotekniikkaan. Tykkään ohjelmoida /C++/:lla, mutta minua kiinnostaa myös /web-ohjelmointi/ ja /pilvipalvelut/. /Valmistun vuoden 2024 loppuun mennessä/.",
         "aboutMeHeader": "Tietoa",
         "status": "Opiskelija & Ohjelmoija",
         "education": "Koulutus",
@@ -27,6 +27,7 @@
             "Joitain minulle tuttuja kirjastoja ja ympäristöjä:",
             "- /Node.js/",
             "- /React.js/",
+            "- Express",
             "- React native",
             "- Visual code"
         ],
@@ -71,11 +72,11 @@
             "- Siemens /TIA Portal/"
         ],
         "otherText": [
-            "Versionhallintajärjestelmiä, joita olen käyttänyt:",
-            "- GitHub",
-            "- GitLab",
-            "Muita sivuja, joita olen käyttänyt:",
-            "- Replit (backendin hostaamiseen)"
+            "Muita ohjelmointiin liittyviä asioita, jotka ovat tuttuja minulle:",
+            "- GitHub, GitLab",
+            "- Html, Css",
+            "- Qml",
+            "- Replit (used for hosting backend)"
         ],
 
         "sportsHeader": "Urheilu",

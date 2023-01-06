@@ -12,8 +12,8 @@ const LanguageModal = ({text, header, onClick}) => {
     return(
         <div className="modal">
             <div className="cross" onClick={onClick}>
-                <span></span>
-                <span></span>
+                <span className="crossLine"></span>
+                <span className="crossLine"></span>
             </div>
             <h3>{header}</h3>
             <section className="textBox">

@@ -27,8 +27,6 @@
         width: calc(100% - 1rem);
         margin: 3rem 0.5rem;
     }
-    
-
 }
 
 @media (max-width: 400px){

@@ -13,7 +13,7 @@ const Profile = ({setPage}) => {
 
             <div className="imageAndTextContainer">
                 <img src="/images/phone_icon.png"></img>
-                <p>+358442615889</p>
+                <p>+358 442615889</p>
             </div>
 
             <div className="imageAndTextContainer">

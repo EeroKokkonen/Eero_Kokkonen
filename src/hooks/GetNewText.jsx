@@ -1,9 +1,10 @@
 const GetNewText = (text) => {
+    const string = "Kissa /kiipesi/ puuhun."
     let array = text.split("/");
     
     if(array.length === text.length)
         return text;
-
+    
     let newText = [];
     for(let i = 0; i < array.length; i++){
         if (i % 2 === 0){
